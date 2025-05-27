@@ -1,12 +1,13 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-shadcn-start",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 3131 --host",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "preview": "nuxt preview --port 3131 --host 0.0.0.0",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
