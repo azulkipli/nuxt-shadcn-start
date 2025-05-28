@@ -1,10 +1,9 @@
 <template>
-  <div id="defLayout" class="min-h-screen container w-full p-6">
-    <header class="inline-flex gap-3">
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/about">About</NuxtLink>
+  <div id="defLayout" class="min-h-screen mx-auto container w-full p-6 border">
+    <header class="inline-flex">
+      <NavHeader />
     </header>
-    <main class="mx-auto mt-8">
+    <main class="mx-auto mt-4 px-4 py-4">
       <slot />
     </main>
   </div>

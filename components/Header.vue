@@ -1,7 +1,6 @@
 <template>
-  <header class="inline-flex gap-3 p-6">
-    <NuxtLink to="/">Home</NuxtLink>
-    <NuxtLink to="/about">About</NuxtLink>
+  <header class="inline-flex p-6 border border-gray-100">
+    <NavHeader />
   </header>
 </template>
 
