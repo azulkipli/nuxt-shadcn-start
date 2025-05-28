@@ -10,6 +10,12 @@ definePageMeta({
   description: "about page NuxtJS Shadcn UI",
   layout: "centered",
 })
+useSeoMeta({
+  title: "About",
+  description: "about page NuxtJS Shadcn UI",
+  ogTitle: "About",
+  ogDescription: "about page NuxtJS Shadcn UI",
+})
 </script>
 
 <style>
