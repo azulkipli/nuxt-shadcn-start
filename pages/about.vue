@@ -4,7 +4,7 @@
     <div class="text-center my-3">
       Different layout page
     </div>
-    <div class="flex gap-3 mt-5">
+    <div class="flex gap-3 mt-5 mx-auto items-center justify-center">
       <Button
         class="border rounded-lg curosor-pointer hover:opacity-85 transition-all duration-500"
         :variant="varBtn"

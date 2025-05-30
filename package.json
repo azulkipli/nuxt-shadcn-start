@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev --port 3131 --host",
     "generate": "nuxt generate",
-    "preview": "nuxt preview --port 3131 --host 0.0.0.0",
+    "preview": "nuxt preview --port 3131 --host",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
