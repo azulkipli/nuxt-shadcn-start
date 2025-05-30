@@ -7,7 +7,18 @@ export default defineNuxtConfig({
   vite:{
     plugins: [
       tailwindcss(),
-    ]
+    ],
+    $client: {
+      build: {
+        rollupOptions: {
+          output: {
+            chunkFileNames: '_nuxt/[hash].js',
+            assetFileNames: '_nuxt/[hash][extname]',
+            entryFileNames: '_nuxt/[hash].js'
+          }
+        }
+      }
+    }
   },
   css: ['~/assets/css/main.css'],
   modules: ['@nuxt/eslint', 'shadcn-nuxt'],
