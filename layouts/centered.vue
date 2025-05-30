@@ -1,6 +1,6 @@
 <template>
   <div id="defLayout" class="min-h-screen container w-full mx-auto p-6">
-    <Header class="text-center mx-auto w-full items-center justify-center" />
+    <Header class="mx-auto w-full justify-center border border-gray-200 rounded-2xl" />
     <main class="mx-auto text-center mt-8">
       <slot />
     </main>

@@ -1,8 +1,8 @@
 <template>
   <div id="defLayout" class="min-h-screen mx-auto container w-full p-6 border">
-    <header class="inline-flex">
+    <Header class="rounded-2xl">
       <NavHeader />
-    </header>
+    </Header>
     <main class="mx-auto mt-4 px-4 py-4">
       <slot />
     </main>

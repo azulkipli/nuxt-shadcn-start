@@ -1,5 +1,5 @@
 <template>
-  <header class="inline-flex p-6 border border-gray-100">
+  <header class="inline-flex p-2 border border-gray-100">
     <NavHeader />
   </header>
 </template>

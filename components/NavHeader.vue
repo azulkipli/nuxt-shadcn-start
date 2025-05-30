@@ -47,10 +47,14 @@ const components: { title: string, href: string, description: string }[] = [
   },
 ]
 </script>
-
 <template>
   <NavigationMenu>
     <NavigationMenuList>
+      <NavigationMenuItem>
+        <NavigationMenuLink href="/" :class="navigationMenuTriggerStyle()">
+          Home
+        </NavigationMenuLink>
+      </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
         <NavigationMenuContent>
@@ -135,9 +139,10 @@ const components: { title: string, href: string, description: string }[] = [
           </ul>
         </NavigationMenuContent>
       </NavigationMenuItem>
+      
       <NavigationMenuItem>
-        <NavigationMenuLink href="/docs/introduction" :class="navigationMenuTriggerStyle()">
-          Documentation
+        <NavigationMenuLink href="/about" :class="navigationMenuTriggerStyle()">
+          About
         </NavigationMenuLink>
       </NavigationMenuItem>
     </NavigationMenuList>
